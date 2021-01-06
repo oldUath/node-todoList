@@ -23,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,7 +33,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609905293269</updated>
-      <workItem from="1609905294675" duration="3926000" />
+      <workItem from="1609905294675" duration="5189000" />
     </task>
     <servers />
   </component>
@@ -52,9 +52,9 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="904" y="149" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1609905541879" />
-    <state x="502" y="47" key="SettingsEditor" timestamp="1609905543468">
+    <state x="502" y="47" key="SettingsEditor" timestamp="1609913379041">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="502" y="47" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1609905543468" />
+    <state x="502" y="47" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1609913379041" />
   </component>
 </project>
