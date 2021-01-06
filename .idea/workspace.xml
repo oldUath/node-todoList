@@ -22,8 +22,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cli.js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager">
+    <configuration name="cli.js" type="NodeJSConfigurationType" temporary="true" application-parameters="add" nameIsGenerated="true" path-to-js-file="cli.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.cli.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609905293269</updated>
-      <workItem from="1609905294675" duration="5189000" />
+      <workItem from="1609905294675" duration="10487000" />
     </task>
     <servers />
   </component>
@@ -44,14 +57,38 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="366" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609917062579">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="366" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.831@0.0.1549.831" timestamp="1609917062579" />
+    <state x="729" y="236" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1609916968120">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="729" y="236" key="#com.intellij.ide.macro.MacrosDialog/0.0.1549.831@0.0.1549.831" timestamp="1609916968120" />
     <state x="857" y="127" key="EnvironmentVariablesDialog" timestamp="1609905455301">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="857" y="127" key="EnvironmentVariablesDialog/0.0.1549.831@0.0.1549.831" timestamp="1609905455301" />
-    <state x="904" y="149" key="FileChooserDialogImpl" timestamp="1609905541879">
+    <state x="904" y="149" key="FileChooserDialogImpl" timestamp="1609916940257">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="904" y="149" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1609905541879" />
+    <state x="904" y="149" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1609916940257" />
+    <state width="1074" height="197" key="GridCell.Tab.0.bottom" timestamp="1609920308509">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1074" height="197" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1609920308509" />
+    <state width="1074" height="197" key="GridCell.Tab.0.center" timestamp="1609920308508">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1074" height="197" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1609920308508" />
+    <state width="1074" height="197" key="GridCell.Tab.0.left" timestamp="1609920308508">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1074" height="197" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1609920308508" />
+    <state width="1074" height="197" key="GridCell.Tab.0.right" timestamp="1609920308508">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1074" height="197" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1609920308508" />
     <state x="502" y="47" key="SettingsEditor" timestamp="1609913379041">
       <screen x="0" y="0" width="1549" height="831" />
     </state>

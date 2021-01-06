@@ -1,7 +1,7 @@
 {
   "name": "30-node-todoList",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "cli.js",
   "license": "MIT",
   "dependencies": {
     "commander": "^6.2.1"
