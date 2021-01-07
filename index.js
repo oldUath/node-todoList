@@ -1,7 +1,8 @@
 //系统用户目录C:\Users\Uath
 const homedir = require('os').homedir();
+const p = require('path');
 const fs = require('fs');
-const dbPath = './todoList.txt'
+const dbPath = p.join(homedir,'todoList')
 
 
 
