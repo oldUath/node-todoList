@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bd6f428-72b9-4fdd-a58d-f2d4d4e3cf0c" name="Default Changelist" comment="" />
+    <list default="true" id="9bd6f428-72b9-4fdd-a58d-f2d4d4e3cf0c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +38,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mgBKjlyL3ypJenIwJKdhsjPvlE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,6 +55,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cli.js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\前端学习\30-node-todoList" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="cli.js" type="NodeJSConfigurationType" temporary="true" application-parameters="add" nameIsGenerated="true" path-to-js-file="cli.js" working-dir="$PROJECT_DIR$">
@@ -46,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609905293269</updated>
-      <workItem from="1609905294675" duration="12835000" />
+      <workItem from="1609905294675" duration="15408000" />
+      <workItem from="1610264777459" duration="2239000" />
     </task>
     <servers />
   </component>
@@ -56,7 +90,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="541" y="111" key="#JavaScript" timestamp="1610267018000">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="541" y="111" key="#JavaScript/0.0.1549.831@0.0.1549.831" timestamp="1610267018000" />
     <state x="366" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609917062579">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -73,29 +122,29 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="904" y="149" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1609916940257" />
-    <state width="1074" height="197" key="GridCell.Tab.0.bottom" timestamp="1609920308509">
+    <state width="1074" height="197" key="GridCell.Tab.0.bottom" timestamp="1610023970194">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1074" height="197" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1609920308509" />
-    <state width="1074" height="197" key="GridCell.Tab.0.center" timestamp="1609920308508">
+    <state width="1074" height="197" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1610023970194" />
+    <state width="1074" height="197" key="GridCell.Tab.0.center" timestamp="1610023970193">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1074" height="197" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1609920308508" />
-    <state width="1074" height="197" key="GridCell.Tab.0.left" timestamp="1609920308508">
+    <state width="1074" height="197" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1610023970193" />
+    <state width="1074" height="197" key="GridCell.Tab.0.left" timestamp="1610023970193">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1074" height="197" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1609920308508" />
-    <state width="1074" height="197" key="GridCell.Tab.0.right" timestamp="1609920308508">
+    <state width="1074" height="197" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1610023970193" />
+    <state width="1074" height="197" key="GridCell.Tab.0.right" timestamp="1610023970194">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1074" height="197" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1609920308508" />
+    <state width="1074" height="197" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1610023970194" />
     <state x="502" y="47" key="SettingsEditor" timestamp="1609989673216">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="502" y="47" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1609989673216" />
-    <state x="722" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1609933778384">
+    <state x="723" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1610266214584">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="722" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1549.831@0.0.1549.831" timestamp="1609933778384" />
+    <state x="723" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1549.831@0.0.1549.831" timestamp="1610266214584" />
   </component>
 </project>

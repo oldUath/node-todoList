@@ -2,34 +2,17 @@
 const homedir = require('os').homedir();
 const p = require('path');
 const fs = require('fs');
+const db = require("./db.js");
 const dbPath = p.join(homedir,'todoList')
 
 
 
-module.exports.add=(title)=>{
-    //读之前的任务
-                //参数1：文件路径，参数2的a+是如果没有此文件则创建，参数三是回调函数
-    fs.readFile(dbPath,{flag:'a+'},(error , data)=>{
-        let list;
-        try{
-            list = JSON.parse(data.toString())
-        }catch (error){
-            list = []
-        }
-        console.log(list)
-        //添加一个任务
-        const task={
-            title:title,
-            done:false
-        }
-        list.push(task)
-        console.log(list)
-        //存储到文件里
-        const string = JSON.stringify(list)
-        fs.writeFile(dbPath,string,(error2)=>{
-            if(error2){
-                console.log(error2)
-            }
-        })
-    })
+module.exports.add= async  (title)=>{
+    //读之前的任务 ，因为读取是异步操作所以使用await和async
+    const list = await db.read(dbPath);
+    //添加一个任务
+    list.push({title,done:false})
+    //存储到文件里
+    db.write(list)
+
 }
