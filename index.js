@@ -15,6 +15,11 @@ module.exports.clear=async ()=>{
 }
 //展示所有
 module.exports.showAll=async ()=>{
-  console.log('showAll')
+  //读取之前的数据
+  const list = await db.read()
+  //打印当前的任务
+  list.forEach((task,index)=>{
+    console.log(`${task.done ? '[x]':'[_]'}${index+1} - ${task.title}`)
+  })
 }
 
