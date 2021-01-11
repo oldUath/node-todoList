@@ -1,7 +1,6 @@
 const { Command } = require('commander');
 const program = new Command();
 const api = require('./index.js')
-const inquirer = require('inquirer')
 //当后面没有参数时，就会打印出所有信息
 if(process.argv.length===2){
   void api.showAll()
