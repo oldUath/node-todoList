@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9bd6f428-72b9-4fdd-a58d-f2d4d4e3cf0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.12" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cli.js" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609905293269</updated>
       <workItem from="1609905294675" duration="15408000" />
-      <workItem from="1610264777459" duration="4790000" />
+      <workItem from="1610264777459" duration="6176000" />
     </task>
     <servers />
   </component>
@@ -137,10 +138,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state width="1074" height="197" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1610023970194" />
-    <state x="502" y="47" key="SettingsEditor" timestamp="1609989673216">
+    <state x="454" y="42" key="SettingsEditor" timestamp="1610332181610">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="502" y="47" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1609989673216" />
+    <state x="454" y="42" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1610332181610" />
     <state x="723" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1610266214584">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
