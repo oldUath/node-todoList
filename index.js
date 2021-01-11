@@ -64,14 +64,39 @@ module.exports.showAll=async ()=>{
                 db.write(list)
                 break;
               case 'updateTitle':
-
+                inquirer.prompt(
+                  {
+                    type:'input',
+                    name:'title',
+                    message:'新的标题',
+                    default:list[index].title
+                  }
+                ).then((answer) => {
+                  list[index].title=answer.title
+                  db.write(list)
+                });
                 break;
               case 'remove':
+                list.splice(index,1)
+                db.write(list)
                 break;
             }
         })
       }else if(index === -2){
         //创建任务
+        inquirer.prompt(
+          {
+            type:'input',
+            name:'title',
+            message:'输入任务标题',
+          }
+        ).then((answer) => {
+          list.push({
+            title:answer.title,
+            done:false
+          })
+          db.write(list)
+        });
       }
     });
 }
