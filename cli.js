@@ -1,3 +1,4 @@
+#!/usr/local/bin/node
 const { Command } = require('commander');
 const program = new Command();
 const api = require('./index.js')
