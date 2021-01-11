@@ -38,7 +38,38 @@ module.exports.showAll=async ()=>{
     .then((answer) => {
       const index = parseInt(answer.index)
       if(index>=0){
+        //选中的任务，进行操作
+        inquirer
+          .prompt([
+            {
+              type:'list',
+              name:'action',
+              message: '请选择操作',
+              choices: [
+                {name:'退出',value:'quit'},
+                {name:'已完成',value:'markAsDone'},
+                {name:'未完成',value:'markAsUndone'},
+                {name:'改标题',value:'updateTitle'},
+                {name:'删除',value:'remove'},
+              ]
+            },
+          ]).then(answer2=>{
+            switch (answer2.action){
+              case 'markAsDone':
+                list[index].done = true
+                db.write(list)
+                break;
+              case 'markAsUndone':
+                list[index].done = false
+                db.write(list)
+                break;
+              case 'updateTitle':
 
+                break;
+              case 'remove':
+                break;
+            }
+        })
       }else if(index === -2){
         //创建任务
       }
