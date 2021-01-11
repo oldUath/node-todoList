@@ -8,5 +8,13 @@ module.exports.add= async  (title)=>{
     list.push({title,done:false})
     //存储到文件里
    await db.write(list)
-
 }
+//清除操作
+module.exports.clear=async ()=>{
+  await db.write([])
+}
+//展示所有
+module.exports.showAll=async ()=>{
+  console.log('showAll')
+}
+
