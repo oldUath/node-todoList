@@ -20,40 +20,23 @@ module.exports.showAll=async ()=>{
   const list = await db.read()
   //打印当前的任务
   list.forEach((task,index)=>{
-    console.log(`${task.done ? '[√]':'[_]'}${index+1} - ${task.title}`)
+    console.log()
   })
 
   //对列表进行操作判断
   inquirer
     .prompt([
       {
-        type: 'list',
-        name: 'theme',
-        message: 'What do you want to do?',
-        choices: [
-          'Order a pizza',
-          'Make a reservation',
-          new inquirer.Separator(),
-          'Ask for opening hours',
-          {
-            name: 'Contact support',
-            disabled: 'Unavailable at this time',
-          },
-          'Talk to the receptionist',
-        ],
-      },
-      {
-        type: 'list',
-        name: 'size',
-        message: 'What size do you need?',
-        choices: ['Jumbo', 'Large', 'Standard', 'Medium', 'Small', 'Micro'],
-        filter: function (val) {
-          return val.toLowerCase();
-        },
+        type:'list',
+        name:'index',
+        message: '请选择你想要操作的任务？',
+        choices: list.map((task,index)=>{
+          return `${task.done ? '[√]':'[_]'} ${index+1} - ${task.title}`
+        })
       },
     ])
-    .then((answers) => {
-      console.log(JSON.stringify(answers, null, '  '));
+    .then((answer) => {
+      console.log(answer);
     });
 }
 
