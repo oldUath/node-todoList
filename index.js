@@ -13,6 +13,6 @@ module.exports.add= async  (title)=>{
     //添加一个任务
     list.push({title,done:false})
     //存储到文件里
-    db.write(list)
+   await db.write(list)
 
 }
