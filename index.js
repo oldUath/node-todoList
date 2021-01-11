@@ -30,9 +30,9 @@ module.exports.showAll=async ()=>{
         type:'list',
         name:'index',
         message: '请选择你想要操作的任务？',
-        choices: list.map((task,index)=>{
-          return `${task.done ? '[√]':'[_]'} ${index+1} - ${task.title}`
-        })
+        choices: [{name:'退出',value:'-1'},...list.map((task,index)=>{
+          return {name:`${task.done ? '[√]':'[_]'} ${index+1} - ${task.title}`,value:index.toString()}
+        })]
       },
     ])
     .then((answer) => {
