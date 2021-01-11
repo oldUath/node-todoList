@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bd6f428-72b9-4fdd-a58d-f2d4d4e3cf0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +53,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.12" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cli.js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="D:\developSoftware\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609905293269</updated>
       <workItem from="1609905294675" duration="15408000" />
-      <workItem from="1610264777459" duration="18802000" />
+      <workItem from="1610264777459" duration="23681000" />
     </task>
     <servers />
   </component>
@@ -111,10 +115,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="366" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.831@0.0.1549.831" timestamp="1609917062579" />
-    <state x="506" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610339684933">
+    <state x="506" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610353112230">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="506" y="253" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1549.831@0.0.1549.831" timestamp="1610339684933" />
+    <state x="506" y="253" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1549.831@0.0.1549.831" timestamp="1610353112230" />
     <state x="729" y="236" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1609916968120">
       <screen x="0" y="0" width="1549" height="831" />
     </state>

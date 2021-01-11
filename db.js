@@ -1,7 +1,8 @@
 const homedir = require('os').homedir();
 const p = require('path');
 const fs = require('fs');
-const dbPath = p.join(homedir,'todoList')
+const home = process.env.HOME || homedir;
+const dbPath = p.join(home,'.todoList')
 
 const db={
     read(path = dbPath){
